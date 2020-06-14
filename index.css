@@ -1,0 +1,47 @@
+*{
+    list-style: none;
+    margin: 0em;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+header li{
+display: block;
+text-align: center;
+padding-top: 10%;
+font-size: 2rem;
+  
+ 
+}
+
+.piccontainer{
+    width: 60%;
+    display: block;
+    margin: auto;
+
+
+}
+
+
+.pic{
+    width: 80%;
+    display: block;
+    margin: auto;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .piccontainer{
+        width: 100%;
+    
+    
+    }
+    .pic{
+        width: 100%;
+        
+    
+    }
+
+
+}
